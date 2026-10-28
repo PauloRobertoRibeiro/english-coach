@@ -1,0 +1,70 @@
+ENGLISH COACH GRATUITO — Curso inicial 1.0
+
+INSTALAR NO WINDOWS
+1. Clique com o botão direito no ZIP > Extrair tudo (Extraer todo).
+2. Abra a pasta extraída e dê dois cliques em Instalar.cmd.
+3. Use o ícone English Coach Gratuito na área de trabalho.
+Não precisa de Python, API, assinatura, conta ou modelos de IA.
+Chrome ou Edge deve estar instalado. O instalador não solicita administrador.
+Uma janela de instalação pode aparecer brevemente; no uso diário não há terminal.
+Se preferir não instalar, abra index.html na pasta extraída, mantendo todos os arquivos juntos.
+Os arquivos são copiados para %LOCALAPPDATA%\EnglishCoachGratuito.
+Para remover, apague o atalho e essa pasta. Exporte o progresso antes.
+
+PRIMEIRO ESTUDO
+Abra Curso > unidade 1 > Olá, prazer!
+Leia a explicação. Ouça e repita as frases.
+Faça as 8 atividades: significado, lacuna, montar frase, escrita, compreensão
+oral, ditado, uso em situação e recordação.
+Leia o retorno após conferir. Pode pular e voltar mais tarde.
+Em Revisão, volte aos erros e às respostas com apoio. Revise os cartões
+antes de ver a tradução. Sua avaliação agenda o próximo encontro.
+Em Fala e escuta, grave até 30 segundos e escute sua voz para comparar.
+Use também a Oficina de sons: 12 pontos de pronúncia, terminações e ritmo.
+
+O QUE TEM
+24 lições em 6 unidades, 192 atividades e 96 cartões de vocabulário
+(incluindo palavras que reaparecem em outros contextos).
+Base inicial: apresentações, be, origem, família, rotina, perguntas, negativas,
+horários, restaurante, compras, direções, ajuda, aeroporto, hotel, saúde,
+gostos, passado, futuro, convites, música, trabalho e comparações.
+Plano diário configurável, progresso, revisão, letra maior, tema escuro,
+Emma/Jack como guias ilustrados, vozes do sistema e gravação local.
+Não há conversa livre com IA, nem certificado de nível ou correção universal
+de gramática. As respostas escritas são comparadas com alternativas preparadas.
+Algumas contrações e variantes são aceitas, mas toda formulação possível não é.
+Lições de saúde ensinam vocabulário; não são orientação médica.
+
+REVISÃO
+Atividades com erro ou com resposta revelada voltam à lista de reforço.
+Resposta com apoio conta como concluída com apoio, não como resposta independente.
+Cartões: Preciso rever = 10 minutos; Lembrei = 1 dia inicialmente; Foi fácil =
+3 dias inicialmente. Os intervalos aumentam até 30 dias. Sem notificações externas.
+A meta diária conta atividades distintas respondidas corretamente, sem somar
+cliques repetidos na mesma questão. Não há punição por faltar um dia.
+
+GRÁTIS / PRIVACIDADE
+Nenhuma chamada a API paga, nenhum anúncio, nenhuma conta.
+O curso e seu progresso funcionam offline. A voz depende do navegador e das vozes
+instaladas. Prefira uma voz marcada como local para ouvir sem internet.
+Se a voz não funcionar, continue com leitura/transcrição e confira Ajustes.
+O aplicativo não envia sua gravação a servidores. O microfone grava somente quando
+você pede; para em até 30 segundos ou ao sair da atividade. A gravação fica apenas
+na memória, para comparação pessoal, e pode ser apagada. Não há nota de pronúncia.
+
+GUARDAR PROGRESSO
+O progresso fica no navegador, para este endereço local. Use Guardar cópia no rodapé
+para salvar JSON. Restaurar cópia recupera esse arquivo. Limpar os dados do navegador,
+mudar de aparelho, de perfil ou de endereço pode separar/apagar o progresso.
+O curso não lê automaticamente o progresso de outros aplicativos.
+
+CELULAR
+O pacote também contém os arquivos de uma PWA. É necessário publicar a pasta em
+HTTPS para instalar no Android/iPad. Não é um APK e ainda não foi publicado.
+A instalação Windows não publica o curso na internet.
+
+VALIDAÇÃO
+Testes em Chromium com navegação, respostas, revisão, persistência, backup,
+layout e modo offline. O áudio e o microfone reais dependem do seu aparelho.
+O instalador foi revisado, mas não foi executado em Windows neste ambiente.
+Se aparecer algum aviso, envie um print e seguimos passo a passo.
