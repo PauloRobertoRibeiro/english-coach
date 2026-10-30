@@ -3256,5 +3256,1261 @@ const COURSE = [
     "explain": "Volte ao quadro de frases se precisar. Repetir faz parte do estudo."
    }
   ]
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "24",
+  "title": "Olá, meu amor!",
+  "goal": "Receber seus netos e demonstrar carinho sem precisar de frases longas.",
+  "rule": "It’s é a forma curta de it is. I’ve missed you significa senti sua falta; I miss you significa sinto sua falta agora. Faça uma pergunta curta e dê tempo para a criança responder.",
+  "example": "It's lovely to see you! = É muito bom ver você!",
+  "phrases": [
+   {
+    "en": "It's lovely to see you!",
+    "pt": "É muito bom ver você!",
+    "answers": [
+     "It is lovely to see you!"
+    ]
+   },
+   {
+    "en": "I've missed you.",
+    "pt": "Senti sua falta.",
+    "answers": [
+     "I have missed you."
+    ]
+   },
+   {
+    "en": "Can I have a hug?",
+    "pt": "Posso ganhar um abraço?",
+    "answers": []
+   },
+   {
+    "en": "I love you.",
+    "pt": "Eu amo você.",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "Grandad",
+    "pt": "vovô / avô (uso britânico)"
+   },
+   {
+    "en": "Grandma",
+    "pt": "vovó / avó"
+   },
+   {
+    "en": "hug",
+    "pt": "abraço"
+   },
+   {
+    "en": "lovely",
+    "pt": "adorável / muito bom"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "O que “I’ve missed you” expressa?",
+    "options": [
+     "Que você sentiu falta da pessoa.",
+     "Que está com fome.",
+     "Que não ouviu a pergunta."
+    ],
+    "answer": "Que você sentiu falta da pessoa.",
+    "explain": "It’s é a forma curta de it is. I’ve missed you significa senti sua falta; I miss you significa sinto sua falta agora. Faça uma pergunta curta e dê tempo para a criança responder."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "It's lovely ___ see you!",
+    "options": [
+     "to",
+     "at",
+     "in"
+    ],
+    "answer": "to",
+    "explain": "It’s é a forma curta de it is. I’ve missed you significa senti sua falta; I miss you significa sinto sua falta agora. Faça uma pergunta curta e dê tempo para a criança responder."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Senti sua falta.",
+    "target": "I've missed you.",
+    "explain": "It’s é a forma curta de it is. I’ve missed you significa senti sua falta; I miss you significa sinto sua falta agora. Faça uma pergunta curta e dê tempo para a criança responder."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "Posso ganhar um abraço?",
+    "answers": [
+     "Can I have a hug?"
+    ],
+    "explain": "It’s é a forma curta de it is. I’ve missed you significa senti sua falta; I miss you significa sinto sua falta agora. Faça uma pergunta curta e dê tempo para a criança responder."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "It's lovely to see you!",
+    "options": [
+     "É muito bom ver você!",
+     "Posso ganhar um abraço?",
+     "Eu amo você."
+    ],
+    "answer": "É muito bom ver você!",
+    "explain": "It's lovely to see you! = É muito bom ver você!"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "I love you.",
+    "answers": [
+     "I love you."
+    ],
+    "explain": "Eu amo você."
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto chega e diz “Hi, Grandad!”. O que você pode dizer?",
+    "options": [
+     "It's lovely to see you!",
+     "Where is the bill?",
+     "What time is the flight?"
+    ],
+    "answer": "It's lovely to see you!",
+    "explain": "Use um tom carinhoso e frases curtas. Convide para um abraço; se a criança não quiser, respeite e continue a conversa com naturalidade."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "É muito bom ver você!",
+    "answers": [
+     "It's lovely to see you!",
+     "It is lovely to see you!"
+    ],
+    "explain": "Use um tom carinhoso e frases curtas. Convide para um abraço; se a criança não quiser, respeite e continue a conversa com naturalidade."
+   }
+  ],
+  "family": {
+   "tip": "Use um tom carinhoso e frases curtas. Convide para um abraço; se a criança não quiser, respeite e continue a conversa com naturalidade.",
+   "dialogues": [
+    {
+     "child": "Hi, Grandad!",
+     "childPt": "Oi, vovô!",
+     "response": 0
+    },
+    {
+     "child": "I missed you!",
+     "childPt": "Senti sua falta!",
+     "response": 1
+    },
+    {
+     "child": "I love you, Grandad.",
+     "childPt": "Eu te amo, vovô.",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "25",
+  "title": "Vamos brincar?",
+  "goal": "Convidar para brincar, alternar a vez e incentivar.",
+  "rule": "Shall we…? é uma forma natural de propor algo juntos, comum no inglês britânico. Your turn = sua vez. Well done! elogia uma conquista.",
+  "example": "What would you like to play? = Do que você gostaria de brincar?",
+  "phrases": [
+   {
+    "en": "What would you like to play?",
+    "pt": "Do que você gostaria de brincar?",
+    "answers": []
+   },
+   {
+    "en": "Shall we play a game?",
+    "pt": "Vamos jogar um jogo?",
+    "answers": []
+   },
+   {
+    "en": "It's your turn.",
+    "pt": "É a sua vez.",
+    "answers": [
+     "It is your turn."
+    ]
+   },
+   {
+    "en": "Well done!",
+    "pt": "Muito bem!",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "play",
+    "pt": "brincar / jogar"
+   },
+   {
+    "en": "game",
+    "pt": "jogo"
+   },
+   {
+    "en": "turn",
+    "pt": "vez"
+   },
+   {
+    "en": "toy",
+    "pt": "brinquedo"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "O que significa “It’s your turn”?",
+    "options": [
+     "É a sua vez.",
+     "O jogo acabou.",
+     "É hora de dormir."
+    ],
+    "answer": "É a sua vez.",
+    "explain": "Shall we…? é uma forma natural de propor algo juntos, comum no inglês britânico. Your turn = sua vez. Well done! elogia uma conquista."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "It's ___ turn.",
+    "options": [
+     "your",
+     "you",
+     "yours"
+    ],
+    "answer": "your",
+    "explain": "Shall we…? é uma forma natural de propor algo juntos, comum no inglês britânico. Your turn = sua vez. Well done! elogia uma conquista."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Vamos jogar um jogo?",
+    "target": "Shall we play a game?",
+    "explain": "Shall we…? é uma forma natural de propor algo juntos, comum no inglês britânico. Your turn = sua vez. Well done! elogia uma conquista."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "É a sua vez.",
+    "answers": [
+     "It's your turn.",
+     "It is your turn."
+    ],
+    "explain": "Shall we…? é uma forma natural de propor algo juntos, comum no inglês britânico. Your turn = sua vez. Well done! elogia uma conquista."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "What would you like to play?",
+    "options": [
+     "Do que você gostaria de brincar?",
+     "É a sua vez.",
+     "Muito bem!"
+    ],
+    "answer": "Do que você gostaria de brincar?",
+    "explain": "What would you like to play? = Do que você gostaria de brincar?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "Well done!",
+    "answers": [
+     "Well done!"
+    ],
+    "explain": "Muito bem!"
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto conseguiu terminar um quebra-cabeça. O que dizer?",
+    "options": [
+     "Well done!",
+     "I need the bill.",
+     "Where is the airport?"
+    ],
+    "answer": "Well done!",
+    "explain": "Deixe a criança escolher entre duas brincadeiras. Comente o que ela faz e alterne as falas, em vez de fazer muitas perguntas seguidas."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Do que você gostaria de brincar?",
+    "answers": [
+     "What would you like to play?"
+    ],
+    "explain": "Deixe a criança escolher entre duas brincadeiras. Comente o que ela faz e alterne as falas, em vez de fazer muitas perguntas seguidas."
+   }
+  ],
+  "family": {
+   "tip": "Deixe a criança escolher entre duas brincadeiras. Comente o que ela faz e alterne as falas, em vez de fazer muitas perguntas seguidas.",
+   "dialogues": [
+    {
+     "child": "I'm bored.",
+     "childPt": "Estou entediado.",
+     "response": 0
+    },
+    {
+     "child": "Who goes next?",
+     "childPt": "Quem joga agora?",
+     "response": 2
+    },
+    {
+     "child": "Look! I did it!",
+     "childPt": "Olha! Eu consegui!",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "26",
+  "title": "Como foi a escola?",
+  "goal": "Perguntar sobre a escola e dar espaço para seu neto contar.",
+  "rule": "How was…? pergunta sobre algo que passou. Depois de did, use o verbo na forma base: What did you enjoy? Tell me more convida a continuar.",
+  "example": "How was school today? = Como foi a escola hoje?",
+  "phrases": [
+   {
+    "en": "How was school today?",
+    "pt": "Como foi a escola hoje?",
+    "answers": []
+   },
+   {
+    "en": "What did you enjoy?",
+    "pt": "Do que você gostou?",
+    "answers": []
+   },
+   {
+    "en": "Who did you play with?",
+    "pt": "Com quem você brincou?",
+    "answers": []
+   },
+   {
+    "en": "Tell me more.",
+    "pt": "Conte-me mais.",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "school",
+    "pt": "escola"
+   },
+   {
+    "en": "friend",
+    "pt": "amigo / amiga"
+   },
+   {
+    "en": "playtime",
+    "pt": "recreio / hora de brincar"
+   },
+   {
+    "en": "today",
+    "pt": "hoje"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "“Tell me more” é um convite para…",
+    "options": [
+     "a criança continuar contando.",
+     "encerrar a conversa.",
+     "falar mais alto."
+    ],
+    "answer": "a criança continuar contando.",
+    "explain": "How was…? pergunta sobre algo que passou. Depois de did, use o verbo na forma base: What did you enjoy? Tell me more convida a continuar."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "What ___ you enjoy?",
+    "options": [
+     "did",
+     "does",
+     "are"
+    ],
+    "answer": "did",
+    "explain": "How was…? pergunta sobre algo que passou. Depois de did, use o verbo na forma base: What did you enjoy? Tell me more convida a continuar."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Do que você gostou?",
+    "target": "What did you enjoy?",
+    "explain": "How was…? pergunta sobre algo que passou. Depois de did, use o verbo na forma base: What did you enjoy? Tell me more convida a continuar."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "Com quem você brincou?",
+    "answers": [
+     "Who did you play with?"
+    ],
+    "explain": "How was…? pergunta sobre algo que passou. Depois de did, use o verbo na forma base: What did you enjoy? Tell me more convida a continuar."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "How was school today?",
+    "options": [
+     "Como foi a escola hoje?",
+     "Com quem você brincou?",
+     "Conte-me mais."
+    ],
+    "answer": "Como foi a escola hoje?",
+    "explain": "How was school today? = Como foi a escola hoje?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "Tell me more.",
+    "answers": [
+     "Tell me more."
+    ],
+    "explain": "Conte-me mais."
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto começa a contar uma história da escola. Como incentivar?",
+    "options": [
+     "Tell me more.",
+     "How much does it cost?",
+     "I would like a room."
+    ],
+    "answer": "Tell me more.",
+    "explain": "Faça uma pergunta e escute. Se a resposta for curta, comente ou diga Tell me more; evite transformar a conversa num interrogatório."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Como foi a escola hoje?",
+    "answers": [
+     "How was school today?"
+    ],
+    "explain": "Faça uma pergunta e escute. Se a resposta for curta, comente ou diga Tell me more; evite transformar a conversa num interrogatório."
+   }
+  ],
+  "family": {
+   "tip": "Faça uma pergunta e escute. Se a resposta for curta, comente ou diga Tell me more; evite transformar a conversa num interrogatório.",
+   "dialogues": [
+    {
+     "child": "I've just got home from school.",
+     "childPt": "Acabei de chegar da escola.",
+     "response": 0
+    },
+    {
+     "child": "We did lots of fun things!",
+     "childPt": "Fizemos muitas coisas divertidas!",
+     "response": 1
+    },
+    {
+     "child": "We made a big model of a castle.",
+     "childPt": "Fizemos uma grande maquete de um castelo.",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "27",
+  "title": "Lanche e rotina",
+  "goal": "Oferecer um lanche, água e combinar pequenos cuidados.",
+  "rule": "Would you like…? é uma oferta gentil. Some water = um pouco de água. Shall we wash our hands? propõe lavar as mãos juntos.",
+  "example": "Would you like a snack? = Você gostaria de um lanche?",
+  "phrases": [
+   {
+    "en": "Would you like a snack?",
+    "pt": "Você gostaria de um lanche?",
+    "answers": []
+   },
+   {
+    "en": "Would you like some water?",
+    "pt": "Você gostaria de um pouco de água?",
+    "answers": []
+   },
+   {
+    "en": "Have you finished?",
+    "pt": "Você terminou?",
+    "answers": []
+   },
+   {
+    "en": "Shall we wash our hands?",
+    "pt": "Vamos lavar as mãos?",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "snack",
+    "pt": "lanche"
+   },
+   {
+    "en": "biscuit",
+    "pt": "biscoito (uso britânico)"
+   },
+   {
+    "en": "water",
+    "pt": "água"
+   },
+   {
+    "en": "hands",
+    "pt": "mãos"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "“Would you like a snack?” serve para…",
+    "options": [
+     "oferecer um lanche.",
+     "perguntar a idade.",
+     "pedir direções."
+    ],
+    "answer": "oferecer um lanche.",
+    "explain": "Would you like…? é uma oferta gentil. Some water = um pouco de água. Shall we wash our hands? propõe lavar as mãos juntos."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "Would you ___ some water?",
+    "options": [
+     "like",
+     "likes",
+     "liking"
+    ],
+    "answer": "like",
+    "explain": "Would you like…? é uma oferta gentil. Some water = um pouco de água. Shall we wash our hands? propõe lavar as mãos juntos."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Você gostaria de um pouco de água?",
+    "target": "Would you like some water?",
+    "explain": "Would you like…? é uma oferta gentil. Some water = um pouco de água. Shall we wash our hands? propõe lavar as mãos juntos."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "Você terminou?",
+    "answers": [
+     "Have you finished?"
+    ],
+    "explain": "Would you like…? é uma oferta gentil. Some water = um pouco de água. Shall we wash our hands? propõe lavar as mãos juntos."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "Would you like a snack?",
+    "options": [
+     "Você gostaria de um lanche?",
+     "Você terminou?",
+     "Vamos lavar as mãos?"
+    ],
+    "answer": "Você gostaria de um lanche?",
+    "explain": "Would you like a snack? = Você gostaria de um lanche?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "Shall we wash our hands?",
+    "answers": [
+     "Shall we wash our hands?"
+    ],
+    "explain": "Vamos lavar as mãos?"
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto diz “I’m thirsty”. O que você pode oferecer?",
+    "options": [
+     "Would you like some water?",
+     "What did you enjoy?",
+     "Who goes next?"
+    ],
+    "answer": "Would you like some water?",
+    "explain": "Uma oferta simples é suficiente. Palavras como biscuit e crisps são comuns no Reino Unido; não é preciso usar linguagem de bebê."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Você gostaria de um lanche?",
+    "answers": [
+     "Would you like a snack?"
+    ],
+    "explain": "Uma oferta simples é suficiente. Palavras como biscuit e crisps são comuns no Reino Unido; não é preciso usar linguagem de bebê."
+   }
+  ],
+  "family": {
+   "tip": "Uma oferta simples é suficiente. Palavras como biscuit e crisps são comuns no Reino Unido; não é preciso usar linguagem de bebê.",
+   "dialogues": [
+    {
+     "child": "I'm hungry.",
+     "childPt": "Estou com fome.",
+     "response": 0
+    },
+    {
+     "child": "I'm thirsty.",
+     "childPt": "Estou com sede.",
+     "response": 1
+    },
+    {
+     "child": "My hands are dirty.",
+     "childPt": "Minhas mãos estão sujas.",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "28",
+  "title": "Sentimentos e ajuda",
+  "goal": "Acolher sentimentos e oferecer ajuda sem pressionar.",
+  "rule": "How are you feeling? pergunta como a pessoa se sente. Would you like some help? oferece ajuda. It’s okay to feel sad reconhece o sentimento.",
+  "example": "How are you feeling? = Como você está se sentindo?",
+  "phrases": [
+   {
+    "en": "How are you feeling?",
+    "pt": "Como você está se sentindo?",
+    "answers": []
+   },
+   {
+    "en": "Would you like some help?",
+    "pt": "Você gostaria de ajuda?",
+    "answers": []
+   },
+   {
+    "en": "It's okay to feel sad.",
+    "pt": "Tudo bem se sentir triste.",
+    "answers": [
+     "It is okay to feel sad."
+    ]
+   },
+   {
+    "en": "I'm here with you.",
+    "pt": "Estou aqui com você.",
+    "answers": [
+     "I am here with you."
+    ]
+   }
+  ],
+  "words": [
+   {
+    "en": "happy",
+    "pt": "feliz"
+   },
+   {
+    "en": "sad",
+    "pt": "triste"
+   },
+   {
+    "en": "help",
+    "pt": "ajuda / ajudar"
+   },
+   {
+    "en": "together",
+    "pt": "juntos"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "“I’m here with you” transmite…",
+    "options": [
+     "presença e apoio.",
+     "pressa para sair.",
+     "uma ordem para ficar em silêncio."
+    ],
+    "answer": "presença e apoio.",
+    "explain": "How are you feeling? pergunta como a pessoa se sente. Would you like some help? oferece ajuda. It’s okay to feel sad reconhece o sentimento."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "I'm here ___ you.",
+    "options": [
+     "with",
+     "at",
+     "from"
+    ],
+    "answer": "with",
+    "explain": "How are you feeling? pergunta como a pessoa se sente. Would you like some help? oferece ajuda. It’s okay to feel sad reconhece o sentimento."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Você gostaria de ajuda?",
+    "target": "Would you like some help?",
+    "explain": "How are you feeling? pergunta como a pessoa se sente. Would you like some help? oferece ajuda. It’s okay to feel sad reconhece o sentimento."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "Tudo bem se sentir triste.",
+    "answers": [
+     "It's okay to feel sad.",
+     "It is okay to feel sad."
+    ],
+    "explain": "How are you feeling? pergunta como a pessoa se sente. Would you like some help? oferece ajuda. It’s okay to feel sad reconhece o sentimento."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "How are you feeling?",
+    "options": [
+     "Como você está se sentindo?",
+     "Tudo bem se sentir triste.",
+     "Estou aqui com você."
+    ],
+    "answer": "Como você está se sentindo?",
+    "explain": "How are you feeling? = Como você está se sentindo?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "I'm here with you.",
+    "answers": [
+     "I'm here with you.",
+     "I am here with you."
+    ],
+    "explain": "Estou aqui com você."
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto diz “I feel sad”. Qual resposta acolhe o sentimento?",
+    "options": [
+     "It's okay to feel sad.",
+     "Stop talking now.",
+     "That does not matter."
+    ],
+    "answer": "It's okay to feel sad.",
+    "explain": "Escute primeiro. Ofereça ajuda e companhia, sem exigir que a criança pare de sentir algo ou responda imediatamente."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Como você está se sentindo?",
+    "answers": [
+     "How are you feeling?"
+    ],
+    "explain": "Escute primeiro. Ofereça ajuda e companhia, sem exigir que a criança pare de sentir algo ou responda imediatamente."
+   }
+  ],
+  "family": {
+   "tip": "Escute primeiro. Ofereça ajuda e companhia, sem exigir que a criança pare de sentir algo ou responda imediatamente.",
+   "dialogues": [
+    {
+     "child": "I can't do this puzzle.",
+     "childPt": "Não consigo fazer este quebra-cabeça.",
+     "response": 1
+    },
+    {
+     "child": "I feel sad.",
+     "childPt": "Eu me sinto triste.",
+     "response": 2
+    },
+    {
+     "child": "Will you stay with me?",
+     "childPt": "Você vai ficar comigo?",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "29",
+  "title": "Histórias e imaginação",
+  "goal": "Ler uma história e conversar sobre personagens.",
+  "rule": "Shall we read…? convida a ler juntos. What happens next? pergunta o que acontece depois. Favourite é a grafia britânica de favorito.",
+  "example": "Shall we read a story? = Vamos ler uma história?",
+  "phrases": [
+   {
+    "en": "Shall we read a story?",
+    "pt": "Vamos ler uma história?",
+    "answers": []
+   },
+   {
+    "en": "What happens next?",
+    "pt": "O que acontece depois?",
+    "answers": []
+   },
+   {
+    "en": "Which is your favourite character?",
+    "pt": "Qual é o seu personagem favorito?",
+    "answers": [
+     "Which is your favorite character?",
+     "Who is your favourite character?",
+     "Who is your favorite character?"
+    ]
+   },
+   {
+    "en": "Shall we read one more page?",
+    "pt": "Vamos ler mais uma página?",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "story",
+    "pt": "história"
+   },
+   {
+    "en": "page",
+    "pt": "página"
+   },
+   {
+    "en": "character",
+    "pt": "personagem"
+   },
+   {
+    "en": "favourite",
+    "pt": "favorito / favorita (grafia britânica)"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "O que significa “one more page”?",
+    "options": [
+     "mais uma página.",
+     "a primeira página.",
+     "um outro livro."
+    ],
+    "answer": "mais uma página.",
+    "explain": "Shall we read…? convida a ler juntos. What happens next? pergunta o que acontece depois. Favourite é a grafia britânica de favorito."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "What ___ next?",
+    "options": [
+     "happens",
+     "happen",
+     "happening"
+    ],
+    "answer": "happens",
+    "explain": "Shall we read…? convida a ler juntos. What happens next? pergunta o que acontece depois. Favourite é a grafia britânica de favorito."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "O que acontece depois?",
+    "target": "What happens next?",
+    "explain": "Shall we read…? convida a ler juntos. What happens next? pergunta o que acontece depois. Favourite é a grafia britânica de favorito."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "Qual é o seu personagem favorito?",
+    "answers": [
+     "Which is your favourite character?",
+     "Which is your favorite character?",
+     "Who is your favourite character?",
+     "Who is your favorite character?"
+    ],
+    "explain": "Shall we read…? convida a ler juntos. What happens next? pergunta o que acontece depois. Favourite é a grafia britânica de favorito."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "Shall we read a story?",
+    "options": [
+     "Vamos ler uma história?",
+     "Qual é o seu personagem favorito?",
+     "Vamos ler mais uma página?"
+    ],
+    "answer": "Vamos ler uma história?",
+    "explain": "Shall we read a story? = Vamos ler uma história?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "Shall we read one more page?",
+    "answers": [
+     "Shall we read one more page?"
+    ],
+    "explain": "Vamos ler mais uma página?"
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Você quer começar uma leitura com seu neto. O que pode dizer?",
+    "options": [
+     "Shall we read a story?",
+     "What time is the flight?",
+     "Where do you work?"
+    ],
+    "answer": "Shall we read a story?",
+    "explain": "Faça uma pausa e deixe a criança imaginar. Não precisa traduzir cada palavra; use imagens, gestos e repetições para apoiar a compreensão."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Vamos ler uma história?",
+    "answers": [
+     "Shall we read a story?"
+    ],
+    "explain": "Faça uma pausa e deixe a criança imaginar. Não precisa traduzir cada palavra; use imagens, gestos e repetições para apoiar a compreensão."
+   }
+  ],
+  "family": {
+   "tip": "Faça uma pausa e deixe a criança imaginar. Não precisa traduzir cada palavra; use imagens, gestos e repetições para apoiar a compreensão.",
+   "dialogues": [
+    {
+     "child": "Can we do something quiet?",
+     "childPt": "Podemos fazer algo tranquilo?",
+     "response": 0
+    },
+    {
+     "child": "I think the dragon is going to wake up!",
+     "childPt": "Acho que o dragão vai acordar!",
+     "response": 1
+    },
+    {
+     "child": "I want to hear a bit more!",
+     "childPt": "Quero ouvir mais um pouquinho!",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "30",
+  "title": "Pela chamada de vídeo",
+  "goal": "Manter contato à distância e comentar desenhos.",
+  "rule": "Can you…? pode pedir uma ação: Can you show me…? What colour…? pergunta a cor; colour é a grafia britânica.",
+  "example": "Can you hear me? = Você consegue me ouvir?",
+  "phrases": [
+   {
+    "en": "Can you hear me?",
+    "pt": "Você consegue me ouvir?",
+    "answers": []
+   },
+   {
+    "en": "Can you show me your drawing?",
+    "pt": "Você pode me mostrar seu desenho?",
+    "answers": []
+   },
+   {
+    "en": "What colour is it?",
+    "pt": "De que cor é?",
+    "answers": [
+     "What color is it?"
+    ]
+   },
+   {
+    "en": "See you soon!",
+    "pt": "Até breve!",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "hear",
+    "pt": "ouvir"
+   },
+   {
+    "en": "show",
+    "pt": "mostrar"
+   },
+   {
+    "en": "drawing",
+    "pt": "desenho"
+   },
+   {
+    "en": "colour",
+    "pt": "cor (grafia britânica)"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "“Can you hear me?” pergunta…",
+    "options": [
+     "se a pessoa consegue ouvir você.",
+     "se a pessoa consegue ver um desenho.",
+     "se o telefone está carregando."
+    ],
+    "answer": "se a pessoa consegue ouvir você.",
+    "explain": "Can you…? pode pedir uma ação: Can you show me…? What colour…? pergunta a cor; colour é a grafia britânica."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "Can you ___ me your drawing?",
+    "options": [
+     "show",
+     "shows",
+     "showing"
+    ],
+    "answer": "show",
+    "explain": "Can you…? pode pedir uma ação: Can you show me…? What colour…? pergunta a cor; colour é a grafia britânica."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Você pode me mostrar seu desenho?",
+    "target": "Can you show me your drawing?",
+    "explain": "Can you…? pode pedir uma ação: Can you show me…? What colour…? pergunta a cor; colour é a grafia britânica."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "De que cor é?",
+    "answers": [
+     "What colour is it?",
+     "What color is it?"
+    ],
+    "explain": "Can you…? pode pedir uma ação: Can you show me…? What colour…? pergunta a cor; colour é a grafia britânica."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "Can you hear me?",
+    "options": [
+     "Você consegue me ouvir?",
+     "De que cor é?",
+     "Até breve!"
+    ],
+    "answer": "Você consegue me ouvir?",
+    "explain": "Can you hear me? = Você consegue me ouvir?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "See you soon!",
+    "answers": [
+     "See you soon!"
+    ],
+    "explain": "Até breve!"
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "A criança diz que precisa terminar a chamada. Como se despedir?",
+    "options": [
+     "See you soon!",
+     "Tell me your price.",
+     "Where is the station?"
+    ],
+    "answer": "See you soon!",
+    "explain": "Mostre interesse em um objeto ou desenho. Uma chamada curta e agradável já ajuda a criar proximidade; não é necessário entender todas as palavras."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Você consegue me ouvir?",
+    "answers": [
+     "Can you hear me?"
+    ],
+    "explain": "Mostre interesse em um objeto ou desenho. Uma chamada curta e agradável já ajuda a criar proximidade; não é necessário entender todas as palavras."
+   }
+  ],
+  "family": {
+   "tip": "Mostre interesse em um objeto ou desenho. Uma chamada curta e agradável já ajuda a criar proximidade; não é necessário entender todas as palavras.",
+   "dialogues": [
+    {
+     "child": "Hello? Is the sound working?",
+     "childPt": "Alô? O som está funcionando?",
+     "response": 0
+    },
+    {
+     "child": "I've drawn a dinosaur!",
+     "childPt": "Desenhei um dinossauro!",
+     "response": 1
+    },
+    {
+     "child": "I have to go now. Bye, Grandad!",
+     "childPt": "Tenho que ir agora. Tchau, vovô!",
+     "response": 3
+    }
+   ]
+  }
+ },
+ {
+  "unit": 6,
+  "unitTitle": "Conversar com meus netos",
+  "id": "31",
+  "title": "Quando não entendo",
+  "goal": "Pedir repetição e continuar sem vergonha de estar aprendendo.",
+  "rule": "Could you…? faz um pedido educado. A little more slowly = um pouco mais devagar. What does that mean? pergunta o significado de algo.",
+  "example": "Could you say that again? = Poderia repetir isso?",
+  "phrases": [
+   {
+    "en": "Could you say that again?",
+    "pt": "Poderia repetir isso?",
+    "answers": []
+   },
+   {
+    "en": "Can you speak a little more slowly?",
+    "pt": "Você pode falar um pouco mais devagar?",
+    "answers": []
+   },
+   {
+    "en": "What does that mean?",
+    "pt": "O que isso significa?",
+    "answers": []
+   },
+   {
+    "en": "Let me try again.",
+    "pt": "Deixe-me tentar de novo.",
+    "answers": []
+   }
+  ],
+  "words": [
+   {
+    "en": "again",
+    "pt": "novamente"
+   },
+   {
+    "en": "slowly",
+    "pt": "devagar"
+   },
+   {
+    "en": "mean",
+    "pt": "significar"
+   },
+   {
+    "en": "try",
+    "pt": "tentar"
+   }
+  ],
+  "tasks": [
+   {
+    "type": "choice",
+    "title": "Entenda a criança e a resposta",
+    "prompt": "“Let me try again” significa…",
+    "options": [
+     "Deixe-me tentar de novo.",
+     "Não quero conversar.",
+     "Não me pergunte nada."
+    ],
+    "answer": "Deixe-me tentar de novo.",
+    "explain": "Could you…? faz um pedido educado. A little more slowly = um pouco mais devagar. What does that mean? pergunta o significado de algo."
+   },
+   {
+    "type": "cloze",
+    "title": "Complete uma frase de carinho",
+    "prompt": "Could you ___ that again?",
+    "options": [
+     "say",
+     "says",
+     "saying"
+    ],
+    "answer": "say",
+    "explain": "Could you…? faz um pedido educado. A little more slowly = um pouco mais devagar. What does that mean? pergunta o significado de algo."
+   },
+   {
+    "type": "order",
+    "title": "Monte sua fala",
+    "prompt": "Você pode falar um pouco mais devagar?",
+    "target": "Can you speak a little more slowly?",
+    "explain": "Could you…? faz um pedido educado. A little more slowly = um pouco mais devagar. What does that mean? pergunta o significado de algo."
+   },
+   {
+    "type": "write",
+    "title": "Diga em inglês",
+    "prompt": "O que isso significa?",
+    "answers": [
+     "What does that mean?"
+    ],
+    "explain": "Could you…? faz um pedido educado. A little more slowly = um pouco mais devagar. What does that mean? pergunta o significado de algo."
+   },
+   {
+    "type": "listen-choice",
+    "title": "Ouça o que você pode dizer",
+    "audio": "Could you say that again?",
+    "options": [
+     "Poderia repetir isso?",
+     "O que isso significa?",
+     "Deixe-me tentar de novo."
+    ],
+    "answer": "Poderia repetir isso?",
+    "explain": "Could you say that again? = Poderia repetir isso?"
+   },
+   {
+    "type": "dictation",
+    "title": "Escute e escreva",
+    "prompt": "Ouça uma frase para usar com seus netos e escreva o que entendeu.",
+    "audio": "Let me try again.",
+    "answers": [
+     "Let me try again."
+    ],
+    "explain": "Deixe-me tentar de novo."
+   },
+   {
+    "type": "choice",
+    "title": "O que dizer ao seu neto?",
+    "prompt": "Seu neto usa uma palavra nova para você. O que perguntar?",
+    "options": [
+     "What does that mean?",
+     "How old is the word?",
+     "Where is my suitcase?"
+    ],
+    "answer": "What does that mean?",
+    "explain": "Você pode dizer I’m learning English (estou aprendendo inglês). Peça ajuda com naturalidade; seus netos também podem ensinar palavras a você."
+   },
+   {
+    "type": "write",
+    "title": "Lembre para usar de verdade",
+    "prompt": "Poderia repetir isso?",
+    "answers": [
+     "Could you say that again?"
+    ],
+    "explain": "Você pode dizer I’m learning English (estou aprendendo inglês). Peça ajuda com naturalidade; seus netos também podem ensinar palavras a você."
+   }
+  ],
+  "family": {
+   "tip": "Você pode dizer I’m learning English (estou aprendendo inglês). Peça ajuda com naturalidade; seus netos também podem ensinar palavras a você.",
+   "dialogues": [
+    {
+     "child": "We made an obstacle course!",
+     "childPt": "Fizemos um circuito de obstáculos!",
+     "response": 2
+    },
+    {
+     "child": "I can tell you about my day.",
+     "childPt": "Posso contar como foi meu dia.",
+     "response": 1
+    },
+    {
+     "child": "What did you say, Grandad?",
+     "childPt": "O que você disse, vovô?",
+     "response": 3
+    }
+   ]
+  }
  }
 ];

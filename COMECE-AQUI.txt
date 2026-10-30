@@ -1,4 +1,4 @@
-ENGLISH COACH GRATUITO — Curso inicial 1.0
+ENGLISH COACH GRATUITO — Curso inicial 1.1
 
 INSTALAR NO WINDOWS
 1. Clique com o botão direito no ZIP > Extrair tudo (Extraer todo).
@@ -23,7 +23,7 @@ Em Fala e escuta, grave até 30 segundos e escute sua voz para comparar.
 Use também a Oficina de sons: 12 pontos de pronúncia, terminações e ritmo.
 
 O QUE TEM
-24 lições em 6 unidades, 192 atividades e 96 cartões de vocabulário
+32 lições em 7 unidades, 256 atividades e 128 cartões de vocabulário
 (incluindo palavras que reaparecem em outros contextos).
 Base inicial: apresentações, be, origem, família, rotina, perguntas, negativas,
 horários, restaurante, compras, direções, ajuda, aeroporto, hotel, saúde,
@@ -68,3 +68,13 @@ Testes em Chromium com navegação, respostas, revisão, persistência, backup,
 layout e modo offline. O áudio e o microfone reais dependem do seu aparelho.
 O instalador foi revisado, mas não foi executado em Windows neste ambiente.
 Se aparecer algum aviso, envie um print e seguimos passo a passo.
+
+NOVO: CONVERSAR COM MEUS NETOS
+Na tela inicial, use o botão Conversar com meus netos.
+8 aulas, 64 atividades e 24 cenas-modelo. Ouça a criança, tente responder,
+ouça uma resposta possível e grave sua fala para comparar. São exemplos
+preparados, sem IA de conversa ou avaliação automática da pronúncia.
+O áudio desta unidade prefere uma voz en-GB quando disponível; caso contrário,
+usa uma voz inglesa instalada. Favourite e colour também aceitam as grafias
+favorite e color nos exercícios de escrita correspondentes.
+A chave de armazenamento e os IDs das 24 aulas anteriores foram preservados.

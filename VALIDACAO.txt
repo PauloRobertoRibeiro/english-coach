@@ -1,22 +1,6 @@
-ENGLISH COACH GRATUITO 1.0 — 28/10/2026
+English Coach Gratuito 1.1 — Conversar com meus netos — 30/10/2026
 
-VERIFICADO EM CHROMIUM
-- 24 lições, 192 atividades e 96 cartões; consistência das opções e soluções.
-- Todas as 192 atividades respondidas pela interface (incluindo montar palavras).
-- Respostas vazias, erradas, com apoio e com contrações.
-- Progresso depois de recarregar; não duplicar contagem diária.
-- Lista de reforço, revisão de erros e agendamento dos cartões.
-- Exportação JSON, restauração e filtragem de dados inválidos.
-- Tela de 390 px, letra maior e tema escuro sem transbordamento horizontal.
-- Abertura offline com service worker e abertura local file://.
-- Avanço para a próxima lição concluída.
-- Gravação usando MediaRecorder real do navegador com entrada de áudio sintética:
-  criação do arquivo temporário, exclusão, desligamento do microfone, navegação
-  enquanto aguardava acesso e tratamento de permissão negada.
-- Oficina com 12 pontos de pronúncia.
-- Nenhuma requisição externa feita pelo app durante o teste das atividades.
+Testes em Chromium: 24 aulas anteriores comparadas sem alterações; progresso, revisão e cartões antigos preservados; 64 atividades novas respondidas pela interface; 24 cenas-modelo; seleção de voz en-GB simulada; navegação para gravação e volta à mesma cena; celular com letra maior; uso offline da unidade nova.
 
-LIMITES DESTA VERIFICAÇÃO
-Não foi testado microfone físico nem qualidade das vozes do Windows. O instalador
-PowerShell foi revisado, mas não executado em Windows neste ambiente.
-Não é uma validação pedagógica com alunos nem garantia de domínio de um nível.
+32 lições, 256 atividades e 128 cartões.
+O áudio real depende das vozes instaladas no aparelho. Não foi testado um microfone físico nem executado o instalador em Windows nesta atualização. Não há IA de conversação nem nota automática de pronúncia.

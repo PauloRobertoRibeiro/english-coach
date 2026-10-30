@@ -2,7 +2,7 @@
 try {
  $dest = Join-Path $env:LOCALAPPDATA 'EnglishCoachGratuito'
  New-Item -ItemType Directory -Path $dest -Force | Out-Null
- foreach ($name in @('index.html','app.js','course.js','icon.ico','icon-192.png','icon-512.png','manifest.webmanifest','sw.js','LEIA-ME.txt')) { Copy-Item -LiteralPath (Join-Path $PSScriptRoot $name) -Destination (Join-Path $dest $name) -Force }
+ foreach ($name in @('index.html','app.js','course.js','family.js','icon.ico','icon-192.png','icon-512.png','manifest.webmanifest','sw.js','LEIA-ME.txt')) { Copy-Item -LiteralPath (Join-Path $PSScriptRoot $name) -Destination (Join-Path $dest $name) -Force }
  $candidates = @((Join-Path $env:ProgramFiles 'Google\Chrome\Application\chrome.exe'),(Join-Path ${env:ProgramFiles(x86)} 'Google\Chrome\Application\chrome.exe'),(Join-Path $env:LOCALAPPDATA 'Google\Chrome\Application\chrome.exe'),(Join-Path ${env:ProgramFiles(x86)} 'Microsoft\Edge\Application\msedge.exe'),(Join-Path $env:ProgramFiles 'Microsoft\Edge\Application\msedge.exe'))
  $browser = $candidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
  if (-not $browser) { throw 'Chrome ou Edge não encontrado. Abra index.html manualmente nesta pasta.' }
